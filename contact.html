@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <!-- <h1>Contact</h1> -->
+      <nav>
+        <ul>
+          <li><a href="./index.html" target="_top">Home</a></li>
+          <!-- <li><a href="./contact.html" target="_blank">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="./img/contact.jpg" alt="contact" width="50%"/>
+      <h1>Get in touch with me</h1>
+      <form action="./thankyou.html">  
+        <fieldset> 
+            <legend>Personal Information</legend>
+            <p><label for="fName">First Name:*</label> 
+            <input type="text" name="fName" required/></p>
+            <p><label for="lName">Last Name:*</label>
+            <input type="text" name="lName" required/></p>
+            <p><label for="phoneNumber">Phone Number:*</label>
+            <input type="text" name="phoneNumber" required/></p>
+            <p><label for="email">Email:*</label>
+            <input type="email" name="email" required/></p>
+            <p><label for="message">Message:</label>
+            <input type="text" name="message"/></p>
+            <label for="reachOut">Reaching Out Me</label>
+            <select name="reachOut_selector" id="reachOut_selector">
+              <option value="">Choose Reaching Out For:---</option>
+              <optgroup label="A Living Meeting">
+               <option value="zoom">Zoom Meeting</option>
+               <option value="meet">Google Meet</option>
+               <option value="team">Microsoft Team</option>
+              </optgroup>
+              <option value="option2">Send Me An Email</option>
+              <option value="option3">Give Me A Call</option>
+              <option value="option4">Left A Message</option>
+              <optgroup label="Connect My Social Medial">
+                <option value="FB">Facebook</option>
+                <option value="TW">Twitter</option>
+                <option value="IN">LinkedIn</option>
+                <option value="IG">Instagram</option>
+              </optgroup>
+            </select>
+            <p>
+              <label for="timeFrame">Pick Your Convenient Time Frame:</label>
+              <input type="radio" name="time_Frame" Value="AM" checked/>AM
+              <input type="radio" name="time_Frame" Value="PM"/>PM
+            </p>
+        </fieldset> 
+        <fieldset>
+          <legend>Download My Files</legend>
+          <p><input type="checkbox" name="coverLetter" value="CV"/>Cover Letter</p>
+          <p><input type="checkbox" name="resume" value="resume"/>Resume</p>
+        </fieldset>
+        <p>
+          <button type="submit">CONTACT ME</button>        
+        </p>
+      <h2>Contact me in any way convenient for you</h2>
+      &#128222<a href="tel:800-888-8888">800-888-8888</a><br>
+      &#128231<a href="mailto:contactme@gmail.com">contactme@gmail.com</a>
+    </form>
+    </main>
+  </body>
+</html>
