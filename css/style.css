@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    padding: 0 30px;
+}
+
+.logo-box {
+    color: black;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+.navbar {
+    width: 70%;
+    padding-top: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 150;
+}
+
+.bio-container {
+    height: 90vh;
+    width: auto;
+
+}
+
+.main-img {
+    margin-top: 4em;
+    right: -3em;
+    width: 500px;
+    height: 430px;
+    background-image: url("../img/programmer-4431280.png");
+    background-size: cover;
+}
+
+.name h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.contact-button {
+    margin-top: 2em;
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    box-shadow: rgb(239, 240, 242) 0px 20px 30px -10px;
+}
+
+.contact-button a,
+.download-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-container {
+    background-color: white;
+    height: 300px;
+    padding: 3em;
+}
+
+.about-title {
+    width: 60%;
+    color: #243949;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 5px 4px 2px #517fa4;
+}
+
+.about-container p {
+    color: black;
+    font-weight: 1rem;
+    margin: 1em;
+}
+
+.download-button {
+    border: none;
+    width: 200px;
+    height: 40px;
+    box-shadow: rgb(239, 240, 242) 0px 20px 30px -10px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    position: relative;
+    left: 1em;
+}
+
+.skill-title,
+.skill-intro {
+    text-align: center;
+    margin: 2em 10em;
+}
+
+.skills-items {
+    height: 40vh;
+    padding: 0 15em;
+    justify-content: space-evenly;
+}
+
+.skill-box {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    box-shadow: rgb(239, 240, 242) 0px 10px 30px -10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skill-1 {
+    color: #dd4b25;
+}
+
+.skill-2 {
+    color: #046eb6;
+}
+
+.skill-3 {
+    color: #e8d44d;
+}
+
+.skill-4 {
+    color: #e61a23;
+}
+
+.skill-5 {
+    color: #01457c;
+}
+
+.skill-6 {
+    color: #59b943;
+}
