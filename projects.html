@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Projects</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Projects</title>
 </head>
+
 <body>
   <header>
     <div class="nav-container">
-      <div class="logo-box">L.L
-      </div>
+      <a href="./index.html" target="_top"><div class="logo-box">L.L
+      </div></a>
       <div class="navbar">
         <nav>
           <ul>
             <div class="flex-row navbar">
               <li><a href="./index.html" target="_top">Home</a></li>
               <li><a href="./contact.html" target="_blank">Contact</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="./index.html">About</a></li>
               <li><a href="#projects">Projects</a></li>
             </div>
           </ul>
         </nav>
       </div>
+      <div class="menu-icon"></div>
     </div>
   </header>
   <main>
-  <h1>Projects Page</h1> 
-  <section id="projects">
-    <h2>Projects</h2>
-    <h3>Project 1</h3>
-    <p>
-      Write a brief description of my first project here.<br />Lorem ipsum
-      dolor sit amet, consectetur adipisicing elit. Earum itaque unde
-      corporis ex harum assumenda quod ipsum quidem quas cumque. Sit eveniet
-      suscipit odio unde amet magni possimus dignissimos consectetur.
-    </p>
-    <img src="./img/project1.jpg" alt="my first project" width="50%" />
-    <h3>Project 2</h3>
-    <p>
-      Write a brief description of my second project here.<br />Lorem, ipsum
-      dolor sit amet consectetur adipisicing elit. Sequi, consequatur
-      dolore, fugit facilis sapiente, veritatis illo incidunt repudiandae
-      magnam est ullam magni soluta? Molestiae, unde deserunt minus illo
-      beatae laborum?
-    </p>
-    <img src="./img/project2.jpg" alt="my first project" width="50%" />
-    <h3>Project 3</h3>
-    <p>
-      Write a brief description of my second project here.<br />Lorem, ipsum
-      dolor sit amet consectetur adipisicing elit. Sequi, consequatur
-      dolore, fugit facilis sapiente, veritatis illo incidunt repudiandae
-      magnam est ullam magni soluta? Molestiae, unde deserunt minus illo
-      beatae laborum?
-    </p>
-    <img src="./img/project3.jpg" alt="my first project" width="50%" />
-  </section>
-</main>
+    <div class="project-container flex-box flex-col">
+      <h1 class="page-h1">Recent<span>Projects</span></h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate nostrum laborum illum sequi accusantium
+        culpa, dolorum veniam esse eius beatae, quibusdam ipsam sint accusamus, possimus obcaecati doloremque explicabo
+        quae dignissimos.</p>
+      <div class="flex-box flex-col">
+        <div class="flex-box flex-row">
+          <div class="project-intro">Write a brief description of my first project here.<br />Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Earum itaque unde
+            corporis ex harum assumenda quod ipsum quidem quas cumque. Sit eveniet
+            suscipit odio unde amet magni possimus dignissimos consectetur.
+          </div>
+          <div class="project-img project-img-1">Project1</div>
+        </div>
+        <div class="flex-box flex-row">
+          <div class="project-img project-img-2">Project2</div>
+          <div class="project-intro">
+            Write a brief description of my second project here.<br />Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Sequi, consequatur
+            dolore, fugit facilis sapiente, veritatis illo incidunt repudiandae
+            magnam est ullam magni soluta? Molestiae, unde deserunt minus illo
+            beatae laborum?
+          </div>
+        </div>
+        <div class="float-box">
+          <div class="project-intro">
+            Write a brief description of my second project here.<br />Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Sequi, consequatur
+            dolore, fugit facilis sapiente, veritatis illo incidunt repudiandae
+            magnam est ullam magni soluta? Molestiae, unde deserunt minus illo
+            beatae laborum?
+          </div>
+          <div class="project-img project-img-3">Project3</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="about-title h2">GET IN TOUCH</div>
+    <h2>You can reach me at:</h2>
+    <ul>
+      <li>
+        Email: <a href="mailto:email@example.com">email@example.com</a>
+      </li>
+      <li>Phone: <a href="tel:123-456-7890">123-456-7890</a></li>
+    </ul>
+    <p>&copy;Copyright 2023 Li Liu. All Rights Reserved</p>
+  </footer>
 </body>
+
 </html>
