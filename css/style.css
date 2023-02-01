@@ -371,28 +371,24 @@ input[type="radio"]:checked {
 
 /* Project page style */
 .project-container {
-    
-    width: 60%;
+
+    width: 70%;
     margin: auto;
     padding: 2em;
 }
 
-.project-container p {
+.project-title,
+.project-intro {
     text-align: center;
-    margin-bottom: 3em;
 }
 
-.project-img {
-    width: 400px;
-    height: 300px;
-    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2), 7px 7px 20px rgba(0, 0, 0, 0.2);
-    margin-left: 2em;
-    margin-right: 2em;
+.project-container p {
+    margin-bottom: 3em;
 }
 
 
 .project-img-1 {
-    
+
     background-image: url("../img/project1.jpg");
     background-size: cover;
     background-position: center;
@@ -409,12 +405,49 @@ input[type="radio"]:checked {
     background-size: cover;
     background-position: center;
 }
-.float-box{
-    float:right;
+
+.float-img {
+    width: 400px;
+    height: 250px;
+    color: #243949;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 90px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.5), 7px 7px 20px rgba(0, 0, 0, 0.5);
+    /* padding: 10px; */
+}
+
+.float-left {
+    float: left;
+    margin: 0 45px 20px 0;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 20px 45px;
+}
+
+.first-paragraph::first-letter {
+    font-size: 6rem;
+    color: #fde786;
+    float: left;
+    margin-right: 1rem;
+}
+
+.first-paragraph {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.project-container h1 {
+    font-size: 3rem;
 }
 
 .project-container span {
-    font-size: 1.5em;
+    font-size: 5rem;
     color: #60abde;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -464,6 +497,15 @@ input[type="radio"]:checked {
             flex-direction: column-reverse;
             font-size: 50%;
             padding-bottom: 2em;
+        }
+
+        .project-title {
+            font-size: 2rem;
+        }
+
+        .float-img {
+            width: 100%;
+            font-size: 3rem;
         }
     }
 }
